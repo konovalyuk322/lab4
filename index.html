@@ -24,7 +24,6 @@
     <ol>
         <li ng-repeat="item in list2.item">
             {{ item.quantity}} {{item.name}}
-            <button ng-click="list1.removeItem($index);">Повернути</button>
         </li>
     </ol>
     <div ng-if="list2.item.length === 0">
